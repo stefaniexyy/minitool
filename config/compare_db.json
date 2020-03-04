@@ -1,0 +1,12 @@
+{
+    "src_db":{
+        "username":"mig",
+        "password":"Zsmart*2018",
+        "Oracle_connect":"10.120.244.99:11521/cc"
+    },
+    "tag_db":{
+        "username":"cc",
+        "password":"Zsmart*2018",
+        "Oracle_connect":"10.120.244.34:11521/cc"
+    }
+}
