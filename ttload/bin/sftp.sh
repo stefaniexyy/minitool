@@ -87,7 +87,8 @@ ftp_files ()
 	  chmod 777 transfile.sh
 	  expect $HOME/ttload/bin/transfile.sh
 	  sleep 3
-	  rm -rf $HOME/mig/bin/transfile.sh
+	  #rm -rf $HOME/mig/bin/transfile.sh
+	  rm -rf transfile.sh
 	  echo "------------ [`date +'%Y-%m-%d %H:%M:%S`]FTP${idx} Complete ---------------------" | tee -a ${logtmp}
 	  echo "" | tee -a ${logtmp}
 		#20190694 xiyangyang:这一段阉割掉，并不需要自动压缩和解压的功能

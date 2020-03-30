@@ -1,14 +1,21 @@
 #!/bin/sh
 
-
+#################
+#Author:Willy Xi
+#20200325
+##################
 
 
 downloadtt(){
   #$1:dsn $2tablename $3location
+  ##############################
+  #Format the unl file timesten download text file contain table structure ,need delete
+  ##############################
     ttBulkCp -o  -s \| -Q 1  -tsformat "YYYY-MM-DD HH24:MI:SS"  -nullFormat "empty"  DSN=$1 $1.$2 $3/$2.unl.tmp
     delete_line=`sed -n '3p' $3/$2.unl.tmp|cut -d , -f 2|tr -d [:blank:][:alpha:]`
     delete_line=`expr $delete_line + 7`
     sed -i  "1,${delete_line}d" $3/$2.unl.tmp
+    sed -i '$d' $3/$2.unl.tmp
     awk -F \| '{print $0"|"}'  $3/$2.unl.tmp> $3/$2.unl
     rm $3/$2.unl.tmp
 }
