@@ -9,33 +9,35 @@ xmlns="http://www.w3.org/TR/REC-html40">
 <meta name=ProgId content=Word.Document>
 <meta name=Generator content="Microsoft Word 15">
 <meta name=Originator content="Microsoft Word 15">
-<link rel=File-List href="readme.md.files/filelist.xml">
+<link rel=File-List href="readme.files/filelist.xml">
+<link rel=Preview href="readme.files/preview.wmf">
 <!--[if gte mso 9]><xml>
  <o:DocumentProperties>
   <o:Author>洋杨 奚</o:Author>
-  <o:LastAuthor>洋杨 奚</o:LastAuthor>
-  <o:Revision>2</o:Revision>
-  <o:TotalTime>11</o:TotalTime>
+  <o:LastAuthor>奚 洋杨</o:LastAuthor>
+  <o:Revision>3</o:Revision>
+  <o:TotalTime>12</o:TotalTime>
   <o:Created>2020-03-08T14:49:00Z</o:Created>
-  <o:LastSaved>2020-03-08T14:49:00Z</o:LastSaved>
-  <o:Pages>1</o:Pages>
-  <o:Words>103</o:Words>
-  <o:Characters>593</o:Characters>
-  <o:Lines>4</o:Lines>
+  <o:LastSaved>2020-05-06T05:36:00Z</o:LastSaved>
+  <o:Pages>2</o:Pages>
+  <o:Words>115</o:Words>
+  <o:Characters>658</o:Characters>
+  <o:Lines>5</o:Lines>
   <o:Paragraphs>1</o:Paragraphs>
-  <o:CharactersWithSpaces>695</o:CharactersWithSpaces>
+  <o:CharactersWithSpaces>772</o:CharactersWithSpaces>
   <o:Version>16.00</o:Version>
  </o:DocumentProperties>
  <o:OfficeDocumentSettings>
   <o:AllowPNG/>
  </o:OfficeDocumentSettings>
 </xml><![endif]-->
-<link rel=dataStoreItem href="readme.md.files/item0001.xml"
-target="readme.md.files/props002.xml">
-<link rel=themeData href="readme.md.files/themedata.thmx">
-<link rel=colorSchemeMapping href="readme.md.files/colorschememapping.xml">
+<link rel=dataStoreItem href="readme.files/item0001.xml"
+target="readme.files/props002.xml">
+<link rel=themeData href="readme.files/themedata.thmx">
+<link rel=colorSchemeMapping href="readme.files/colorschememapping.xml">
 <!--[if gte mso 9]><xml>
  <w:WordDocument>
+  <w:View>Print</w:View>
   <w:SpellingState>Clean</w:SpellingState>
   <w:GrammarState>Clean</w:GrammarState>
   <w:TrackMoves>false</w:TrackMoves>
@@ -70,6 +72,7 @@ target="readme.md.files/props002.xml">
    <w:OverrideTableStyleHps/>
    <w:UseFELayout/>
   </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
   <m:mathPr>
    <m:mathFont m:val="Cambria Math"/>
    <m:brkBin m:val="before"/>
@@ -756,6 +759,7 @@ h1
 	mso-fareast-theme-font:minor-fareast;
 	mso-hansi-font-family:等线;
 	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:宋体;
 	mso-font-kerning:22.0pt;}
 span.1
 	{mso-style-name:"标题 1 字符";
@@ -767,6 +771,17 @@ span.1
 	mso-bidi-font-size:22.0pt;
 	mso-font-kerning:22.0pt;
 	font-weight:bold;}
+p.msonormal0, li.msonormal0, div.msonormal0
+	{mso-style-name:msonormal;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
 span.SpellE
 	{mso-style-name:"";
 	mso-spl-e:yes;}
@@ -776,9 +791,16 @@ span.GramE
 .MsoChpDefault
 	{mso-style-type:export-only;
 	mso-default-props:yes;
+	font-size:10.0pt;
+	mso-ansi-font-size:10.0pt;
+	mso-bidi-font-size:10.0pt;
 	font-family:等线;
+	mso-ascii-font-family:等线;
+	mso-fareast-font-family:等线;
+	mso-hansi-font-family:等线;
 	mso-bidi-font-family:"Times New Roman";
-	mso-bidi-theme-font:minor-bidi;}
+	mso-bidi-theme-font:minor-bidi;
+	mso-font-kerning:0pt;}
  /* Page Definitions */
  @page
 	{mso-page-border-surround-header:no;
@@ -808,16 +830,8 @@ div.WordSection1
 	mso-para-margin:0cm;
 	mso-para-margin-bottom:.0001pt;
 	mso-pagination:widow-orphan;
-	font-size:10.5pt;
-	mso-bidi-font-size:11.0pt;
-	font-family:等线;
-	mso-ascii-font-family:等线;
-	mso-ascii-theme-font:minor-latin;
-	mso-fareast-font-family:等线;
-	mso-fareast-theme-font:minor-fareast;
-	mso-hansi-font-family:等线;
-	mso-hansi-theme-font:minor-latin;
-	mso-font-kerning:1.0pt;}
+	font-size:10.0pt;
+	font-family:等线;}
 </style>
 <![endif]--><!--[if gte mso 9]><xml>
  <o:shapedefaults v:ext="edit" spidmax="1026"/>
@@ -843,15 +857,14 @@ compare_oracle.py<o:p></o:p></span></p>
 <p class=MsoNormal><span style='font-size:9.0pt'>两种方式<span lang=EN-US><o:p></o:p></span></span></p>
 
 <p class=MsoNormal><span lang=EN-US style='font-size:9.0pt'>python
-compare_oracle.py –</span><span style='font-size:9.0pt'>这种模式使用默认的配置文件，位于<span
+compare_oracle.py </span><span style='font-size:9.0pt'>–这种模式使用默认的配置文件，位于<span
 lang=EN-US>config</span>目录下的<span class=SpellE><span lang=EN-US>compare_db.json</span></span><span
 lang=EN-US><o:p></o:p></span></span></p>
 
 <p class=MsoNormal><span lang=EN-US style='font-size:9.0pt'>python
-compare_oracle.py ../config/<span class=SpellE>xxx.json</span>—</span><span
-class=GramE><span style='font-size:9.0pt'>传参模式 <span lang=EN-US>,</span>使用参数中指定的</span></span><span
-lang=EN-US style='font-size:9.0pt'>json</span><span style='font-size:9.0pt'>配置文件<span
-lang=EN-US><o:p></o:p></span></span></p>
+compare_oracle.py ../config/<span class=SpellE>xxx.json</span></span><span
+style='font-size:9.0pt'>—<span class=GramE>传参模式<span lang=EN-US> ,</span>使用参数中指定的</span><span
+lang=EN-US>json</span>配置文件<span lang=EN-US><o:p></o:p></span></span></p>
 
 <p class=MsoNormal align=left style='text-align:left;line-height:14.25pt;
 mso-pagination:widow-orphan;background:white'><span lang=EN-US
@@ -1018,6 +1031,21 @@ lang=EN-US>&nbsp;python&nbsp;sql2excel.py&nbsp;<span class=SpellE>xxx.sql</span>
 lang=EN-US>&nbsp;</span>不需要路径<span lang=EN-US>)<o:p></o:p></span></span></p>
 
 <p class=MsoNormal><span lang=EN-US style='font-size:9.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:9.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<h1><span class=SpellE><span lang=EN-US style='font-size:10.5pt;line-height:
+240%'>compare_oracle</span></span><span lang=EN-US style='font-size:10.5pt;
+line-height:240%'><o:p></o:p></span></h1>
+
+<p class=MsoNormal><span lang=EN-US>python3 compare_oracle.py</span></p>
+
+<p class=MsoNormal>按照提示输入</p>
+
+<p class=MsoNormal>会生成一个<span class=SpellE><span lang=EN-US>sql</span></span>文件
+执行<span class=SpellE><span lang=EN-US>sql</span></span>文件就可以同步表结构</p>
+
+<p class=MsoNormal><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
 
 </div>
 
