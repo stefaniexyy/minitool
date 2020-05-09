@@ -15,31 +15,30 @@ xmlns="http://www.w3.org/TR/REC-html40">
  <o:DocumentProperties>
   <o:Author>洋杨 奚</o:Author>
   <o:LastAuthor>奚 洋杨</o:LastAuthor>
-  <o:Revision>3</o:Revision>
-  <o:TotalTime>12</o:TotalTime>
+  <o:Revision>10</o:Revision>
+  <o:TotalTime>19</o:TotalTime>
   <o:Created>2020-03-08T14:49:00Z</o:Created>
-  <o:LastSaved>2020-05-06T05:36:00Z</o:LastSaved>
+  <o:LastSaved>2020-05-09T03:28:00Z</o:LastSaved>
   <o:Pages>2</o:Pages>
-  <o:Words>115</o:Words>
-  <o:Characters>658</o:Characters>
-  <o:Lines>5</o:Lines>
+  <o:Words>140</o:Words>
+  <o:Characters>801</o:Characters>
+  <o:Lines>6</o:Lines>
   <o:Paragraphs>1</o:Paragraphs>
-  <o:CharactersWithSpaces>772</o:CharactersWithSpaces>
+  <o:CharactersWithSpaces>940</o:CharactersWithSpaces>
   <o:Version>16.00</o:Version>
  </o:DocumentProperties>
  <o:OfficeDocumentSettings>
   <o:AllowPNG/>
  </o:OfficeDocumentSettings>
 </xml><![endif]-->
-<link rel=dataStoreItem href="readme.files/item0001.xml"
-target="readme.files/props002.xml">
+<link rel=dataStoreItem href="readme.files/item0007.xml"
+target="readme.files/props008.xml">
 <link rel=themeData href="readme.files/themedata.thmx">
 <link rel=colorSchemeMapping href="readme.files/colorschememapping.xml">
 <!--[if gte mso 9]><xml>
  <w:WordDocument>
   <w:View>Print</w:View>
   <w:SpellingState>Clean</w:SpellingState>
-  <w:GrammarState>Clean</w:GrammarState>
   <w:TrackMoves>false</w:TrackMoves>
   <w:TrackFormatting/>
   <w:PunctuationKerning/>
@@ -693,6 +692,13 @@ target="readme.files/props002.xml">
 	mso-font-pitch:variable;
 	mso-font-signature:-1610612033 953122042 22 0 262159 0;}
 @font-face
+	{font-family:"等线 Light";
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:-1610612033 953122042 22 0 262159 0;}
+@font-face
 	{font-family:Consolas;
 	panose-1:2 11 6 9 2 2 4 3 2 4;
 	mso-font-charset:0;
@@ -713,6 +719,12 @@ target="readme.files/props002.xml">
 	mso-generic-font-family:auto;
 	mso-font-pitch:variable;
 	mso-font-signature:3 680460288 22 0 262145 0;}
+@font-face
+	{font-family:"\@等线 Light";
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:-1610612033 953122042 22 0 262159 0;}
  /* Style Definitions */
  p.MsoNormal, li.MsoNormal, div.MsoNormal
 	{mso-style-unhide:no;
@@ -761,6 +773,33 @@ h1
 	mso-hansi-theme-font:minor-latin;
 	mso-bidi-font-family:宋体;
 	mso-font-kerning:22.0pt;}
+h2
+	{mso-style-noshow:yes;
+	mso-style-priority:9;
+	mso-style-qformat:yes;
+	mso-style-link:"标题 2 字符";
+	mso-style-next:正文;
+	margin-top:13.0pt;
+	margin-right:0cm;
+	margin-bottom:13.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	line-height:172%;
+	mso-pagination:lines-together;
+	page-break-after:avoid;
+	mso-outline-level:2;
+	font-size:16.0pt;
+	font-family:"等线 Light";
+	mso-ascii-font-family:"等线 Light";
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:"等线 Light";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:"等线 Light";
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	mso-font-kerning:1.0pt;}
 span.1
 	{mso-style-name:"标题 1 字符";
 	mso-style-priority:9;
@@ -770,6 +809,26 @@ span.1
 	mso-ansi-font-size:22.0pt;
 	mso-bidi-font-size:22.0pt;
 	mso-font-kerning:22.0pt;
+	font-weight:bold;}
+span.2
+	{mso-style-name:"标题 2 字符";
+	mso-style-noshow:yes;
+	mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"标题 2";
+	mso-ansi-font-size:16.0pt;
+	mso-bidi-font-size:16.0pt;
+	font-family:"等线 Light";
+	mso-ascii-font-family:"等线 Light";
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:"等线 Light";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:"等线 Light";
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	mso-font-kerning:1.0pt;
 	font-weight:bold;}
 p.msonormal0, li.msonormal0, div.msonormal0
 	{mso-style-name:msonormal;
@@ -785,9 +844,6 @@ p.msonormal0, li.msonormal0, div.msonormal0
 span.SpellE
 	{mso-style-name:"";
 	mso-spl-e:yes;}
-span.GramE
-	{mso-style-name:"";
-	mso-gram-e:yes;}
 .MsoChpDefault
 	{mso-style-type:export-only;
 	mso-default-props:yes;
@@ -845,198 +901,12 @@ div.WordSection1
 
 <div class=WordSection1 style='layout-grid:15.6pt'>
 
-<h1><span class=SpellE><span lang=EN-US style='font-size:10.5pt;line-height:
-240%'>compare_oracle</span></span><span style='font-size:10.5pt;line-height:
-240%'>比对两个数据库表结构差异<span lang=EN-US><o:p></o:p></span></span></h1>
+<h1><span lang=EN-US style='font-size:10.5pt;line-height:240%'>Oracle tool<o:p></o:p></span></h1>
 
-<p class=MsoNormal><span lang=EN-US style='font-size:9.0pt'>python
-compare_oracle.py<o:p></o:p></span></p>
-
-<p class=MsoNormal><span style='font-size:9.0pt'>只支持<span lang=EN-US>python3<o:p></o:p></span></span></p>
-
-<p class=MsoNormal><span style='font-size:9.0pt'>两种方式<span lang=EN-US><o:p></o:p></span></span></p>
-
-<p class=MsoNormal><span lang=EN-US style='font-size:9.0pt'>python
-compare_oracle.py </span><span style='font-size:9.0pt'>–这种模式使用默认的配置文件，位于<span
-lang=EN-US>config</span>目录下的<span class=SpellE><span lang=EN-US>compare_db.json</span></span><span
-lang=EN-US><o:p></o:p></span></span></p>
-
-<p class=MsoNormal><span lang=EN-US style='font-size:9.0pt'>python
-compare_oracle.py ../config/<span class=SpellE>xxx.json</span></span><span
-style='font-size:9.0pt'>—<span class=GramE>传参模式<span lang=EN-US> ,</span>使用参数中指定的</span><span
-lang=EN-US>json</span>配置文件<span lang=EN-US><o:p></o:p></span></span></p>
-
-<p class=MsoNormal align=left style='text-align:left;line-height:14.25pt;
-mso-pagination:widow-orphan;background:white'><span lang=EN-US
-style='mso-bidi-font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
-宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'>{<o:p></o:p></span></p>
-
-<p class=MsoNormal align=left style='text-align:left;line-height:14.25pt;
-mso-pagination:widow-orphan;background:white'><span lang=EN-US
-style='mso-bidi-font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
-宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'>&nbsp;&nbsp;&nbsp;&nbsp;</span><span
-lang=EN-US style='mso-bidi-font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
-宋体;mso-bidi-font-family:宋体;color:#0451A5;mso-font-kerning:0pt'>&quot;<span
-class=SpellE>src_db</span><span class=GramE>&quot;<span style='color:black'>:{</span></span></span><span
-lang=EN-US style='mso-bidi-font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
-宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'><o:p></o:p></span></p>
-
-<p class=MsoNormal align=left style='text-align:left;line-height:14.25pt;
-mso-pagination:widow-orphan;background:white'><span lang=EN-US
-style='mso-bidi-font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
-宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
-lang=EN-US style='mso-bidi-font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
-宋体;mso-bidi-font-family:宋体;color:#0451A5;mso-font-kerning:0pt'>&quot;username&quot;</span><span
-lang=EN-US style='mso-bidi-font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
-宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'>:</span><span
-lang=EN-US style='mso-bidi-font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
-宋体;mso-bidi-font-family:宋体;color:#A31515;mso-font-kerning:0pt'>&quot;<span
-class=SpellE>mig</span>&quot;</span><span lang=EN-US style='mso-bidi-font-size:
-10.5pt;font-family:Consolas;mso-fareast-font-family:宋体;mso-bidi-font-family:
-宋体;color:black;mso-font-kerning:0pt'>,<o:p></o:p></span></p>
-
-<p class=MsoNormal align=left style='text-align:left;line-height:14.25pt;
-mso-pagination:widow-orphan;background:white'><span lang=EN-US
-style='mso-bidi-font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
-宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
-lang=EN-US style='mso-bidi-font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
-宋体;mso-bidi-font-family:宋体;color:#0451A5;mso-font-kerning:0pt'>&quot;password&quot;</span><span
-lang=EN-US style='mso-bidi-font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
-宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'>:</span><span
-lang=EN-US style='mso-bidi-font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
-宋体;mso-bidi-font-family:宋体;color:#A31515;mso-font-kerning:0pt'>&quot;<span
-class=SpellE>Zsmart</span>*2018&quot;</span><span lang=EN-US style='mso-bidi-font-size:
-10.5pt;font-family:Consolas;mso-fareast-font-family:宋体;mso-bidi-font-family:
-宋体;color:black;mso-font-kerning:0pt'>,<o:p></o:p></span></p>
-
-<p class=MsoNormal align=left style='text-align:left;line-height:14.25pt;
-mso-pagination:widow-orphan;background:white'><span lang=EN-US
-style='mso-bidi-font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
-宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
-lang=EN-US style='mso-bidi-font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
-宋体;mso-bidi-font-family:宋体;color:#0451A5;mso-font-kerning:0pt'>&quot;Oracle_connect&quot;</span><span
-lang=EN-US style='mso-bidi-font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
-宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'>:</span><span
-lang=EN-US style='mso-bidi-font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
-宋体;mso-bidi-font-family:宋体;color:#A31515;mso-font-kerning:0pt'>&quot;10.120.244.99:11521/cc&quot;</span><span
-lang=EN-US style='mso-bidi-font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
-宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'><o:p></o:p></span></p>
-
-<p class=MsoNormal align=left style='text-align:left;line-height:14.25pt;
-mso-pagination:widow-orphan;background:white'><span lang=EN-US
-style='mso-bidi-font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
-宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'>&nbsp;&nbsp;&nbsp;&nbsp;},<o:p></o:p></span></p>
-
-<p class=MsoNormal align=left style='text-align:left;line-height:14.25pt;
-mso-pagination:widow-orphan;background:white'><span lang=EN-US
-style='mso-bidi-font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
-宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'>&nbsp;&nbsp;&nbsp;&nbsp;</span><span
-lang=EN-US style='mso-bidi-font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
-宋体;mso-bidi-font-family:宋体;color:#0451A5;mso-font-kerning:0pt'>&quot;<span
-class=SpellE>tag_db</span><span class=GramE>&quot;<span style='color:black'>:{</span></span></span><span
-lang=EN-US style='mso-bidi-font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
-宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'><o:p></o:p></span></p>
-
-<p class=MsoNormal align=left style='text-align:left;line-height:14.25pt;
-mso-pagination:widow-orphan;background:white'><span lang=EN-US
-style='mso-bidi-font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
-宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
-lang=EN-US style='mso-bidi-font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
-宋体;mso-bidi-font-family:宋体;color:#0451A5;mso-font-kerning:0pt'>&quot;<span
-class=SpellE>username&quot;<span style='color:black'>:</span><span
-style='color:#A31515'>&quot;cc</span></span></span><span lang=EN-US
-style='mso-bidi-font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
-宋体;mso-bidi-font-family:宋体;color:#A31515;mso-font-kerning:0pt'>&quot;</span><span
-lang=EN-US style='mso-bidi-font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
-宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'>,<o:p></o:p></span></p>
-
-<p class=MsoNormal align=left style='text-align:left;line-height:14.25pt;
-mso-pagination:widow-orphan;background:white'><span lang=EN-US
-style='mso-bidi-font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
-宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
-lang=EN-US style='mso-bidi-font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
-宋体;mso-bidi-font-family:宋体;color:#0451A5;mso-font-kerning:0pt'>&quot;password&quot;</span><span
-lang=EN-US style='mso-bidi-font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
-宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'>:</span><span
-lang=EN-US style='mso-bidi-font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
-宋体;mso-bidi-font-family:宋体;color:#A31515;mso-font-kerning:0pt'>&quot;<span
-class=SpellE>Zsmart</span>*2018&quot;</span><span lang=EN-US style='mso-bidi-font-size:
-10.5pt;font-family:Consolas;mso-fareast-font-family:宋体;mso-bidi-font-family:
-宋体;color:black;mso-font-kerning:0pt'>,<o:p></o:p></span></p>
-
-<p class=MsoNormal align=left style='text-align:left;line-height:14.25pt;
-mso-pagination:widow-orphan;background:white'><span lang=EN-US
-style='mso-bidi-font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
-宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
-lang=EN-US style='mso-bidi-font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
-宋体;mso-bidi-font-family:宋体;color:#0451A5;mso-font-kerning:0pt'>&quot;Oracle_connect&quot;</span><span
-lang=EN-US style='mso-bidi-font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
-宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'>:</span><span
-lang=EN-US style='mso-bidi-font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
-宋体;mso-bidi-font-family:宋体;color:#A31515;mso-font-kerning:0pt'>&quot;10.120.244.34:11521/cc&quot;</span><span
-lang=EN-US style='mso-bidi-font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
-宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'><o:p></o:p></span></p>
-
-<p class=MsoNormal align=left style='text-align:left;line-height:14.25pt;
-mso-pagination:widow-orphan;background:white'><span lang=EN-US
-style='mso-bidi-font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
-宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'>&nbsp;&nbsp;&nbsp;&nbsp;}<o:p></o:p></span></p>
-
-<p class=MsoNormal align=left style='text-align:left;line-height:14.25pt;
-mso-pagination:widow-orphan;background:white'><span lang=EN-US
-style='mso-bidi-font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
-宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'>}<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=SpellE><span lang=EN-US style='font-size:9.0pt'>src_db</span></span><span
-lang=EN-US style='font-size:9.0pt'> </span><span style='font-size:9.0pt'>源数据库<span
-lang=EN-US><o:p></o:p></span></span></p>
-
-<p class=MsoNormal><span class=SpellE><span lang=EN-US style='font-size:9.0pt'>tag_db</span></span><span
-lang=EN-US style='font-size:9.0pt'>:</span><span style='font-size:9.0pt'>目标数据库<span
-lang=EN-US><o:p></o:p></span></span></p>
-
-<p class=MsoNormal><span lang=EN-US style='font-size:9.0pt'><o:p>&nbsp;</o:p></span></p>
-
-<p class=MsoNormal><span style='font-size:9.0pt'>需要<span lang=EN-US>py3</span>模块<span
-lang=EN-US> <span class=SpellE>cx_Oracle</span><o:p></o:p></span></span></p>
-
-<p class=MsoNormal><span lang=EN-US style='font-size:9.0pt'><o:p>&nbsp;</o:p></span></p>
-
-<p class=MsoNormal><span lang=EN-US style='font-size:9.0pt'><o:p>&nbsp;</o:p></span></p>
-
-<h1><span lang=EN-US style='font-size:10.5pt;line-height:240%'>sql2excel<o:p></o:p></span></h1>
-
-<p class=MsoNormal>只支持<span lang=EN-US>python2</span></p>
-
-<p class=MsoNormal><span style='font-size:9.0pt'>将<span class=SpellE><span
-lang=EN-US>sql</span></span><span class=GramE>建表语句</span>导成<span lang=EN-US>excel<o:p></o:p></span></span></p>
-
-<p class=MsoNormal><span lang=EN-US style='font-size:9.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;</span><span
-style='font-size:9.0pt'>输入一个<span class=SpellE><span lang=EN-US>sql</span></span>文件，转换为<span
-lang=EN-US>excel</span>文件<span lang=EN-US><o:p></o:p></span></span></p>
-
-<p class=MsoNormal><span lang=EN-US style='font-size:9.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;<span
-class=SpellE>sql</span></span><span style='font-size:9.0pt'>文件放在<span
-lang=EN-US>.<span class=GramE>./</span>input</span>下<span lang=EN-US>&nbsp;<span
-class=SpellE>sql</span></span>文件格式要是<span lang=EN-US>utf-8</span>的<span
-lang=EN-US><o:p></o:p></span></span></p>
-
-<p class=MsoNormal><span lang=EN-US style='font-size:9.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;</span><span
-style='font-size:9.0pt'>生成的<span lang=EN-US>excel</span>放在<span lang=EN-US>.<span
-class=GramE>./</span>output</span>下<span lang=EN-US><o:p></o:p></span></span></p>
-
-<p class=MsoNormal><span lang=EN-US style='font-size:9.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;</span><span
-style='font-size:9.0pt'>在<span lang=EN-US>.<span class=GramE>./</span>bin</span>下执行<span
-lang=EN-US>&nbsp;python&nbsp;sql2excel.py&nbsp;<span class=SpellE>xxx.sql</span>(</span>直接文件名<span
-lang=EN-US>&nbsp;</span>不需要路径<span lang=EN-US>)<o:p></o:p></span></span></p>
-
-<p class=MsoNormal><span lang=EN-US style='font-size:9.0pt'><o:p>&nbsp;</o:p></span></p>
-
-<p class=MsoNormal><span lang=EN-US style='font-size:9.0pt'><o:p>&nbsp;</o:p></span></p>
-
-<h1><span class=SpellE><span lang=EN-US style='font-size:10.5pt;line-height:
-240%'>compare_oracle</span></span><span lang=EN-US style='font-size:10.5pt;
-line-height:240%'><o:p></o:p></span></h1>
+<h2><span class=SpellE><span lang=EN-US style='font-size:10.5pt;line-height:
+172%'>compare_oracle</span></span><span style='font-size:10.5pt;line-height:
+172%'>比对两个数据库表结构差异</span><span lang=EN-US style='font-size:10.5pt;line-height:
+172%;mso-font-kerning:22.0pt'><o:p></o:p></span></h2>
 
 <p class=MsoNormal><span lang=EN-US>python3 compare_oracle.py</span></p>
 
@@ -1044,6 +914,251 @@ line-height:240%'><o:p></o:p></span></h1>
 
 <p class=MsoNormal>会生成一个<span class=SpellE><span lang=EN-US>sql</span></span>文件
 执行<span class=SpellE><span lang=EN-US>sql</span></span>文件就可以同步表结构</p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:9.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<h2><span class=SpellE><span lang=EN-US style='font-size:10.5pt;line-height:
+172%'>load_data</span></span><span lang=EN-US style='font-size:10.5pt;
+line-height:172%'> </span><span style='font-size:10.5pt;line-height:172%'>把文本文件导入<span
+lang=EN-US>oracle</span>数据库<span lang=EN-US><o:p></o:p></span></span></h2>
+
+<p class=MsoNormal><span lang=EN-US>./load.sh ../config/<span class=SpellE>env.cfg</span></span></p>
+
+<p class=MsoNormal>需要一个参数 配置文件路径</p>
+
+<p class=MsoNormal>入库文件要求</p>
+
+<p class=MsoNormal>分隔符<span lang=EN-US>| </span>文件结尾也需要分隔符</p>
+
+<p class=MsoNormal><b>配置文件格式：<span lang=EN-US><o:p></o:p></span></b></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:14.25pt;
+mso-pagination:widow-orphan;background:white'><span lang=EN-US
+style='mso-bidi-font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
+宋体;mso-bidi-font-family:宋体;color:green;mso-font-kerning:0pt'>#the&nbsp;file&nbsp;for&nbsp;load.</span><span
+lang=EN-US style='mso-bidi-font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
+宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:14.25pt;
+mso-pagination:widow-orphan;background:white'><span lang=EN-US
+style='mso-bidi-font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
+宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:14.25pt;
+mso-pagination:widow-orphan;background:white'><span lang=EN-US
+style='mso-bidi-font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
+宋体;mso-bidi-font-family:宋体;color:green;mso-font-kerning:0pt'>#three&nbsp;DB:&nbsp;<span
+class=SpellE>memdb</span>&nbsp;oracle&nbsp;<span class=SpellE>informix</span></span><span
+lang=EN-US style='mso-bidi-font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
+宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:14.25pt;
+mso-pagination:widow-orphan;background:white'><span lang=EN-US
+style='mso-bidi-font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
+宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'>[<span
+class=SpellE>dbtype</span>]<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:14.25pt;
+mso-pagination:widow-orphan;background:white'><span lang=EN-US
+style='mso-bidi-font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
+宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'>oracle<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:14.25pt;
+mso-pagination:widow-orphan;background:white'><span lang=EN-US
+style='mso-bidi-font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
+宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:14.25pt;
+mso-pagination:widow-orphan;background:white'><span lang=EN-US
+style='mso-bidi-font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
+宋体;mso-bidi-font-family:宋体;color:green;mso-font-kerning:0pt'>#if&nbsp;<span
+class=SpellE>memdb</span>&nbsp;,write&nbsp;<span class=SpellE>memdb</span></span><span
+lang=EN-US style='mso-bidi-font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
+宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:14.25pt;
+mso-pagination:widow-orphan;background:white'><span lang=EN-US
+style='mso-bidi-font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
+宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'>[<span
+class=SpellE>dbname</span>]<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:14.25pt;
+mso-pagination:widow-orphan;background:white'><span class=SpellE><span
+lang=EN-US style='mso-bidi-font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
+宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'>mig</span></span><span
+lang=EN-US style='mso-bidi-font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
+宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'>/<span
+class=SpellE>Zsmart</span>*2018@10.120.244.99:11521/cc<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:14.25pt;
+mso-pagination:widow-orphan;background:white'><span lang=EN-US
+style='mso-bidi-font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
+宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:14.25pt;
+mso-pagination:widow-orphan;background:white'><span lang=EN-US
+style='mso-bidi-font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
+宋体;mso-bidi-font-family:宋体;color:green;mso-font-kerning:0pt'>#&nbsp;max&nbsp;process</span><span
+lang=EN-US style='mso-bidi-font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
+宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:14.25pt;
+mso-pagination:widow-orphan;background:white'><span lang=EN-US
+style='mso-bidi-font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
+宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'>[<span
+class=SpellE>max_process_count</span>]<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:14.25pt;
+mso-pagination:widow-orphan;background:white'><span lang=EN-US
+style='mso-bidi-font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
+宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'>5<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:14.25pt;
+mso-pagination:widow-orphan;background:white'><span lang=EN-US
+style='mso-bidi-font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
+宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:14.25pt;
+mso-pagination:widow-orphan;background:white'><span lang=EN-US
+style='mso-bidi-font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
+宋体;mso-bidi-font-family:宋体;color:green;mso-font-kerning:0pt'>#the&nbsp;number&nbsp;of&nbsp;<span
+class=SpellE>cpu</span></span><span lang=EN-US style='mso-bidi-font-size:10.5pt;
+font-family:Consolas;mso-fareast-font-family:宋体;mso-bidi-font-family:宋体;
+color:black;mso-font-kerning:0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:14.25pt;
+mso-pagination:widow-orphan;background:white'><span lang=EN-US
+style='mso-bidi-font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
+宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'>[<span
+class=SpellE>cpuno</span>]<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:14.25pt;
+mso-pagination:widow-orphan;background:white'><span lang=EN-US
+style='mso-bidi-font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
+宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'>5<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:14.25pt;
+mso-pagination:widow-orphan;background:white'><span lang=EN-US
+style='mso-bidi-font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
+宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:14.25pt;
+mso-pagination:widow-orphan;background:white'><span lang=EN-US
+style='mso-bidi-font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
+宋体;mso-bidi-font-family:宋体;color:green;mso-font-kerning:0pt'>#data&nbsp;path</span><span
+lang=EN-US style='mso-bidi-font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
+宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:14.25pt;
+mso-pagination:widow-orphan;background:white'><span lang=EN-US
+style='mso-bidi-font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
+宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'>[<span
+class=SpellE>datapath</span>]<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:14.25pt;
+mso-pagination:widow-orphan;background:white'><span lang=EN-US
+style='mso-bidi-font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
+宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'>/<span
+class=SpellE>ccdata</span>/<span class=SpellE>mig</span>/<span class=SpellE>mig</span>/data/output<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:14.25pt;
+mso-pagination:widow-orphan;background:white'><span lang=EN-US
+style='mso-bidi-font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
+宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:14.25pt;
+mso-pagination:widow-orphan;background:white'><span lang=EN-US
+style='mso-bidi-font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
+宋体;mso-bidi-font-family:宋体;color:green;mso-font-kerning:0pt'>#<span
+class=SpellE>expdb</span>&nbsp;mode</span><span lang=EN-US style='mso-bidi-font-size:
+10.5pt;font-family:Consolas;mso-fareast-font-family:宋体;mso-bidi-font-family:
+宋体;color:black;mso-font-kerning:0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:14.25pt;
+mso-pagination:widow-orphan;background:white'><span lang=EN-US
+style='mso-bidi-font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
+宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'>[date&nbsp;only&nbsp;mode]<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:14.25pt;
+mso-pagination:widow-orphan;background:white'><span lang=EN-US
+style='mso-bidi-font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
+宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'>N<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:14.25pt;
+mso-pagination:widow-orphan;background:white'><span lang=EN-US
+style='mso-bidi-font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
+宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:14.25pt;
+mso-pagination:widow-orphan;background:white'><span lang=EN-US
+style='mso-bidi-font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
+宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'>[<span
+class=SpellE>tablelist</span>]<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:14.25pt;
+mso-pagination:widow-orphan;background:white'><span lang=EN-US
+style='mso-bidi-font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
+宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'>MIG_EVENT_USGAE_C_71023|MIG_EVENT_USGAE_C_71023.unl|<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:14.25pt;
+mso-pagination:widow-orphan;background:white'><span lang=EN-US
+style='mso-bidi-font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
+宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'>MIG_EVENT_USGAE_71023|MIG_EVENT_USGAE_71023.unl|<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:14.25pt;
+mso-pagination:widow-orphan;background:white'><span lang=EN-US
+style='mso-bidi-font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
+宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'>[END]<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:9.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<h1><span class=SpellE><span lang=EN-US style='font-size:10.5pt;line-height:
+240%'>Timesten_tool</span></span><span lang=EN-US style='font-size:10.5pt;
+line-height:240%'><o:p></o:p></span></h1>
+
+<h2><span class=SpellE><span lang=EN-US style='font-size:10.5pt;line-height:
+172%'>Ttload</span></span><span lang=EN-US style='font-size:10.5pt;line-height:
+172%'><o:p></o:p></span></h2>
+
+<p class=MsoNormal><span lang=EN-US>clean_tt.sh </span>清理需要入库的表</p>
+
+<p class=MsoNormal><span lang=EN-US>download_tt.sh </span>现在<span class=SpellE><span
+lang=EN-US>tt</span></span>数据到<span class=SpellE><span lang=EN-US>unl</span></span>文本格式</p>
+
+<p class=MsoNormal><span lang=EN-US>load_tt.sh </span>把文本文件导入<span
+class=SpellE><span lang=EN-US>timesten</span></span></p>
+
+<p class=MsoNormal><span lang=EN-US>tt2unl.sh </span>把<span class=SpellE><span
+lang=EN-US>tt</span></span>导出的文件转成<span class=SpellE><span lang=EN-US>unl</span></span><span
+lang=EN-US> <span style='mso-spacerun:yes'>&nbsp;</span></span>用法；<span
+lang=EN-US>tt2unl.sh <span class=SpellE>xxx.unl</span></span></p>
+
+<h1><span lang=EN-US style='font-size:10.5pt;line-height:240%'>sql2excel<o:p></o:p></span></h1>
+
+<p class=MsoNormal>只支持<span lang=EN-US>python2</span></p>
+
+<p class=MsoNormal><span style='font-size:9.0pt'>将<span class=SpellE><span
+lang=EN-US>sql</span></span>建表语句导成<span lang=EN-US>excel<o:p></o:p></span></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:9.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;</span><span
+style='font-size:9.0pt'>输入一个<span class=SpellE><span lang=EN-US>sql</span></span>文件，转换为<span
+lang=EN-US>excel</span>文件<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:9.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;<span
+class=SpellE>sql</span></span><span style='font-size:9.0pt'>文件放在<span
+lang=EN-US>../input</span>下<span lang=EN-US>&nbsp;<span class=SpellE>sql</span></span>文件格式要是<span
+lang=EN-US>utf-8</span>的<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:9.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;</span><span
+style='font-size:9.0pt'>生成的<span lang=EN-US>excel</span>放在<span lang=EN-US>../output</span>下<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:9.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;</span><span
+style='font-size:9.0pt'>在<span lang=EN-US>../bin</span>下执行<span lang=EN-US>&nbsp;python&nbsp;sql2excel.py&nbsp;<span
+class=SpellE>xxx.sql</span>(</span>直接文件名<span lang=EN-US>&nbsp;</span>不需要路径<span
+lang=EN-US>)<o:p></o:p></span></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:9.0pt'><o:p>&nbsp;</o:p></span></p>
 
 <p class=MsoNormal><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
 
