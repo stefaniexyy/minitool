@@ -15,30 +15,31 @@ xmlns="http://www.w3.org/TR/REC-html40">
  <o:DocumentProperties>
   <o:Author>洋杨 奚</o:Author>
   <o:LastAuthor>奚 洋杨</o:LastAuthor>
-  <o:Revision>10</o:Revision>
-  <o:TotalTime>19</o:TotalTime>
+  <o:Revision>14</o:Revision>
+  <o:TotalTime>26</o:TotalTime>
   <o:Created>2020-03-08T14:49:00Z</o:Created>
-  <o:LastSaved>2020-05-09T03:28:00Z</o:LastSaved>
-  <o:Pages>2</o:Pages>
-  <o:Words>140</o:Words>
-  <o:Characters>801</o:Characters>
-  <o:Lines>6</o:Lines>
-  <o:Paragraphs>1</o:Paragraphs>
-  <o:CharactersWithSpaces>940</o:CharactersWithSpaces>
+  <o:LastSaved>2020-05-16T03:35:00Z</o:LastSaved>
+  <o:Pages>3</o:Pages>
+  <o:Words>196</o:Words>
+  <o:Characters>1118</o:Characters>
+  <o:Lines>9</o:Lines>
+  <o:Paragraphs>2</o:Paragraphs>
+  <o:CharactersWithSpaces>1312</o:CharactersWithSpaces>
   <o:Version>16.00</o:Version>
  </o:DocumentProperties>
  <o:OfficeDocumentSettings>
   <o:AllowPNG/>
  </o:OfficeDocumentSettings>
 </xml><![endif]-->
-<link rel=dataStoreItem href="readme.files/item0007.xml"
-target="readme.files/props008.xml">
+<link rel=dataStoreItem href="readme.files/item0008.xml"
+target="readme.files/props009.xml">
 <link rel=themeData href="readme.files/themedata.thmx">
 <link rel=colorSchemeMapping href="readme.files/colorschememapping.xml">
 <!--[if gte mso 9]><xml>
  <w:WordDocument>
   <w:View>Print</w:View>
   <w:SpellingState>Clean</w:SpellingState>
+  <w:GrammarState>Clean</w:GrammarState>
   <w:TrackMoves>false</w:TrackMoves>
   <w:TrackFormatting/>
   <w:PunctuationKerning/>
@@ -682,7 +683,7 @@ target="readme.files/props008.xml">
 	mso-font-charset:0;
 	mso-generic-font-family:roman;
 	mso-font-pitch:variable;
-	mso-font-signature:3 0 0 0 1 0;}
+	mso-font-signature:-536869121 1107305727 33554432 0 415 0;}
 @font-face
 	{font-family:等线;
 	panose-1:2 1 6 0 3 1 1 1 1 1;
@@ -706,19 +707,19 @@ target="readme.files/props008.xml">
 	mso-font-pitch:fixed;
 	mso-font-signature:-536869121 64767 1 0 415 0;}
 @font-face
-	{font-family:"\@等线";
-	panose-1:2 1 6 0 3 1 1 1 1 1;
-	mso-font-charset:134;
-	mso-generic-font-family:auto;
-	mso-font-pitch:variable;
-	mso-font-signature:-1610612033 953122042 22 0 262159 0;}
-@font-face
 	{font-family:"\@宋体";
 	panose-1:2 1 6 0 3 1 1 1 1 1;
 	mso-font-charset:134;
 	mso-generic-font-family:auto;
 	mso-font-pitch:variable;
 	mso-font-signature:3 680460288 22 0 262145 0;}
+@font-face
+	{font-family:"\@等线";
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:-1610612033 953122042 22 0 262159 0;}
 @font-face
 	{font-family:"\@等线 Light";
 	mso-font-charset:134;
@@ -785,7 +786,7 @@ h2
 	margin-left:0cm;
 	text-align:justify;
 	text-justify:inter-ideograph;
-	line-height:172%;
+	line-height:170%;
 	mso-pagination:lines-together;
 	page-break-after:avoid;
 	mso-outline-level:2;
@@ -799,6 +800,69 @@ h2
 	mso-hansi-theme-font:major-latin;
 	mso-bidi-font-family:"Times New Roman";
 	mso-bidi-theme-font:major-bidi;
+	mso-font-kerning:1.0pt;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-priority:99;
+	mso-style-link:"页眉 字符";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	mso-pagination:none;
+	tab-stops:center 207.65pt right 415.3pt;
+	layout-grid-mode:char;
+	border:none;
+	mso-border-bottom-alt:solid windowtext .75pt;
+	padding:0cm;
+	mso-padding-alt:0cm 0cm 1.0pt 0cm;
+	font-size:9.0pt;
+	font-family:等线;
+	mso-ascii-font-family:等线;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:等线;
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:等线;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-font-kerning:1.0pt;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-priority:99;
+	mso-style-link:"页脚 字符";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:none;
+	tab-stops:center 207.65pt right 415.3pt;
+	layout-grid-mode:char;
+	font-size:9.0pt;
+	font-family:等线;
+	mso-ascii-font-family:等线;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:等线;
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:等线;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-font-kerning:1.0pt;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-link:"批注框文本 字符";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	mso-pagination:none;
+	font-size:9.0pt;
+	font-family:等线;
+	mso-ascii-font-family:等线;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:等线;
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:等线;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
 	mso-font-kerning:1.0pt;}
 span.1
 	{mso-style-name:"标题 1 字符";
@@ -841,9 +905,61 @@ p.msonormal0, li.msonormal0, div.msonormal0
 	font-size:12.0pt;
 	font-family:宋体;
 	mso-bidi-font-family:宋体;}
+span.a
+	{mso-style-name:"页眉 字符";
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:页眉;
+	mso-ansi-font-size:9.0pt;
+	mso-bidi-font-size:9.0pt;
+	font-family:等线;
+	mso-ascii-font-family:等线;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:等线;
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:等线;
+	mso-hansi-theme-font:minor-latin;
+	mso-font-kerning:1.0pt;}
+span.a0
+	{mso-style-name:"页脚 字符";
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:页脚;
+	mso-ansi-font-size:9.0pt;
+	mso-bidi-font-size:9.0pt;
+	font-family:等线;
+	mso-ascii-font-family:等线;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:等线;
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:等线;
+	mso-hansi-theme-font:minor-latin;
+	mso-font-kerning:1.0pt;}
+span.a1
+	{mso-style-name:"批注框文本 字符";
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:批注框文本;
+	mso-ansi-font-size:9.0pt;
+	mso-bidi-font-size:9.0pt;
+	font-family:等线;
+	mso-ascii-font-family:等线;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:等线;
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:等线;
+	mso-hansi-theme-font:minor-latin;
+	mso-font-kerning:1.0pt;}
 span.SpellE
 	{mso-style-name:"";
 	mso-spl-e:yes;}
+span.GramE
+	{mso-style-name:"";
+	mso-gram-e:yes;}
 .MsoChpDefault
 	{mso-style-type:export-only;
 	mso-default-props:yes;
@@ -860,7 +976,11 @@ span.SpellE
  /* Page Definitions */
  @page
 	{mso-page-border-surround-header:no;
-	mso-page-border-surround-footer:no;}
+	mso-page-border-surround-footer:no;
+	mso-footnote-separator:url("readme.files/header.htm") fs;
+	mso-footnote-continuation-separator:url("readme.files/header.htm") fcs;
+	mso-endnote-separator:url("readme.files/header.htm") es;
+	mso-endnote-continuation-separator:url("readme.files/header.htm") ecs;}
 @page WordSection1
 	{size:595.3pt 841.9pt;
 	margin:72.0pt 90.0pt 72.0pt 90.0pt;
@@ -890,7 +1010,7 @@ div.WordSection1
 	font-family:等线;}
 </style>
 <![endif]--><!--[if gte mso 9]><xml>
- <o:shapedefaults v:ext="edit" spidmax="1026"/>
+ <o:shapedefaults v:ext="edit" spidmax="2049"/>
 </xml><![endif]--><!--[if gte mso 9]><xml>
  <o:shapelayout v:ext="edit">
   <o:idmap v:ext="edit" data="1"/>
@@ -904,9 +1024,9 @@ div.WordSection1
 <h1><span lang=EN-US style='font-size:10.5pt;line-height:240%'>Oracle tool<o:p></o:p></span></h1>
 
 <h2><span class=SpellE><span lang=EN-US style='font-size:10.5pt;line-height:
-172%'>compare_oracle</span></span><span style='font-size:10.5pt;line-height:
-172%'>比对两个数据库表结构差异</span><span lang=EN-US style='font-size:10.5pt;line-height:
-172%;mso-font-kerning:22.0pt'><o:p></o:p></span></h2>
+170%'>compare_oracle</span></span><span style='font-size:10.5pt;line-height:
+170%'>比对两个数据库表结构差异</span><span lang=EN-US style='font-size:10.5pt;line-height:
+170%;mso-font-kerning:22.0pt'><o:p></o:p></span></h2>
 
 <p class=MsoNormal><span lang=EN-US>python3 compare_oracle.py</span></p>
 
@@ -918,8 +1038,8 @@ div.WordSection1
 <p class=MsoNormal><span lang=EN-US style='font-size:9.0pt'><o:p>&nbsp;</o:p></span></p>
 
 <h2><span class=SpellE><span lang=EN-US style='font-size:10.5pt;line-height:
-172%'>load_data</span></span><span lang=EN-US style='font-size:10.5pt;
-line-height:172%'> </span><span style='font-size:10.5pt;line-height:172%'>把文本文件导入<span
+170%'>load_data</span></span><span lang=EN-US style='font-size:10.5pt;
+line-height:170%'> </span><span style='font-size:10.5pt;line-height:170%'>把文本文件导入<span
 lang=EN-US>oracle</span>数据库<span lang=EN-US><o:p></o:p></span></span></h2>
 
 <p class=MsoNormal><span lang=EN-US>./load.sh ../config/<span class=SpellE>env.cfg</span></span></p>
@@ -972,9 +1092,10 @@ style='mso-bidi-font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
 mso-pagination:widow-orphan;background:white'><span lang=EN-US
 style='mso-bidi-font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
 宋体;mso-bidi-font-family:宋体;color:green;mso-font-kerning:0pt'>#if&nbsp;<span
-class=SpellE>memdb</span>&nbsp;,write&nbsp;<span class=SpellE>memdb</span></span><span
-lang=EN-US style='mso-bidi-font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
-宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'><o:p></o:p></span></p>
+class=SpellE><span class=GramE>memdb</span></span><span class=GramE>&nbsp;,write</span>&nbsp;<span
+class=SpellE>memdb</span></span><span lang=EN-US style='mso-bidi-font-size:
+10.5pt;font-family:Consolas;mso-fareast-font-family:宋体;mso-bidi-font-family:
+宋体;color:black;mso-font-kerning:0pt'><o:p></o:p></span></p>
 
 <p class=MsoNormal align=left style='text-align:left;line-height:14.25pt;
 mso-pagination:widow-orphan;background:white'><span lang=EN-US
@@ -1110,15 +1231,61 @@ mso-pagination:widow-orphan;background:white'><span lang=EN-US
 style='mso-bidi-font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
 宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'>[END]<o:p></o:p></span></p>
 
+<p class=MsoNormal align=left style='text-align:left;line-height:14.25pt;
+mso-pagination:widow-orphan;background:white'><span lang=EN-US
+style='mso-bidi-font-size:10.5pt;font-family:Consolas;mso-fareast-font-family:
+宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'><o:p>&nbsp;</o:p></span></p>
+
+<h2><span class=SpellE><span lang=EN-US style='font-size:10.5pt;line-height:
+170%'>check_oracle_uniq_index</span></span><span lang=EN-US style='font-size:
+10.5pt;line-height:170%'> </span><span style='font-size:10.5pt;line-height:
+170%'>检查转换出来的表数据是否匹配目标表的唯一主键<span lang=EN-US><o:p></o:p></span></span></h2>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:9.0pt;background:yellow;
+mso-highlight:yellow'>python3 <span class=GramE>check_oracle_uniq_index.py<span
+style='mso-spacerun:yes'>&nbsp; </span>../../config/<span class=SpellE>migration_table_list.json</span></span></span><span
+lang=EN-US style='font-size:9.0pt'><o:p></o:p></span></p>
+
 <p class=MsoNormal><span lang=EN-US style='font-size:9.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:9.0pt'>配置文件格式见<span lang=EN-US> config</span>文件夹下<span
+class=SpellE><span lang=EN-US>migration_table_list.json</span></span><span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:9.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<h2><span class=SpellE><span lang=EN-US style='font-size:10.5pt;line-height:
+170%'>dump_tool</span></span><span lang=EN-US style='font-size:10.5pt;
+line-height:170%'> </span><span class=GramE><span style='font-size:10.5pt;
+line-height:170%'>多进程</span></span><span class=SpellE><span lang=EN-US
+style='font-size:10.5pt;line-height:170%'>expdp</span></span><span lang=EN-US
+style='font-size:10.5pt;line-height:170%'>/<span class=SpellE>impdp</span><o:p></o:p></span></h2>
+
+<p class=MsoNormal>按照<span lang=EN-US>config</span>文件夹下的<span class=SpellE><span
+lang=EN-US>oracle_expimpdp.json</span></span><span lang=EN-US> </span>配置文件</p>
+
+<p class=MsoNormal>执行的时候</p>
+
+<p class=MsoNormal><span lang=EN-US><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+class=SpellE><span style='background:yellow;mso-highlight:yellow'>perl</span></span><span
+style='background:yellow;mso-highlight:yellow'> expdp_oracle.pl 1 ../<span
+class=SpellE>conffig</span>/<span class=SpellE>oracle_expimpdp.json</span></span></span></p>
+
+<p class=MsoNormal><span lang=EN-US><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>1</span>为
+<span class=SpellE><span lang=EN-US>impdp</span></span>导入 <span lang=EN-US>2</span>为<span
+class=SpellE><span lang=EN-US>expdp</span></span>导出</p>
+
+<p class=MsoNormal>注意<span lang=EN-US>.<span class=SpellE>impdp</span></span>的时候<span
+lang=EN-US>,oracle </span>的<span lang=EN-US>directory</span>属主必须是执行脚本的用户，否则可能不能删除旧的<span
+lang=EN-US>dump</span></p>
 
 <h1><span class=SpellE><span lang=EN-US style='font-size:10.5pt;line-height:
 240%'>Timesten_tool</span></span><span lang=EN-US style='font-size:10.5pt;
 line-height:240%'><o:p></o:p></span></h1>
 
 <h2><span class=SpellE><span lang=EN-US style='font-size:10.5pt;line-height:
-172%'>Ttload</span></span><span lang=EN-US style='font-size:10.5pt;line-height:
-172%'><o:p></o:p></span></h2>
+170%'>Ttload</span></span><span lang=EN-US style='font-size:10.5pt;line-height:
+170%'><o:p></o:p></span></h2>
 
 <p class=MsoNormal><span lang=EN-US>clean_tt.sh </span>清理需要入库的表</p>
 
@@ -1130,7 +1297,7 @@ class=SpellE><span lang=EN-US>timesten</span></span></p>
 
 <p class=MsoNormal><span lang=EN-US>tt2unl.sh </span>把<span class=SpellE><span
 lang=EN-US>tt</span></span>导出的文件转成<span class=SpellE><span lang=EN-US>unl</span></span><span
-lang=EN-US> <span style='mso-spacerun:yes'>&nbsp;</span></span>用法；<span
+lang=EN-US><span style='mso-spacerun:yes'>&nbsp; </span></span>用法；<span
 lang=EN-US>tt2unl.sh <span class=SpellE>xxx.unl</span></span></p>
 
 <h1><span lang=EN-US style='font-size:10.5pt;line-height:240%'>sql2excel<o:p></o:p></span></h1>
@@ -1138,7 +1305,7 @@ lang=EN-US>tt2unl.sh <span class=SpellE>xxx.unl</span></span></p>
 <p class=MsoNormal>只支持<span lang=EN-US>python2</span></p>
 
 <p class=MsoNormal><span style='font-size:9.0pt'>将<span class=SpellE><span
-lang=EN-US>sql</span></span>建表语句导成<span lang=EN-US>excel<o:p></o:p></span></span></p>
+lang=EN-US>sql</span></span><span class=GramE>建表语句</span>导成<span lang=EN-US>excel<o:p></o:p></span></span></p>
 
 <p class=MsoNormal><span lang=EN-US style='font-size:9.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;</span><span
 style='font-size:9.0pt'>输入一个<span class=SpellE><span lang=EN-US>sql</span></span>文件，转换为<span
@@ -1146,17 +1313,18 @@ lang=EN-US>excel</span>文件<span lang=EN-US><o:p></o:p></span></span></p>
 
 <p class=MsoNormal><span lang=EN-US style='font-size:9.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;<span
 class=SpellE>sql</span></span><span style='font-size:9.0pt'>文件放在<span
-lang=EN-US>../input</span>下<span lang=EN-US>&nbsp;<span class=SpellE>sql</span></span>文件格式要是<span
-lang=EN-US>utf-8</span>的<span lang=EN-US><o:p></o:p></span></span></p>
-
-<p class=MsoNormal><span lang=EN-US style='font-size:9.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;</span><span
-style='font-size:9.0pt'>生成的<span lang=EN-US>excel</span>放在<span lang=EN-US>../output</span>下<span
+lang=EN-US>.<span class=GramE>./</span>input</span>下<span lang=EN-US>&nbsp;<span
+class=SpellE>sql</span></span>文件格式要是<span lang=EN-US>utf-8</span>的<span
 lang=EN-US><o:p></o:p></span></span></p>
 
 <p class=MsoNormal><span lang=EN-US style='font-size:9.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;</span><span
-style='font-size:9.0pt'>在<span lang=EN-US>../bin</span>下执行<span lang=EN-US>&nbsp;python&nbsp;sql2excel.py&nbsp;<span
-class=SpellE>xxx.sql</span>(</span>直接文件名<span lang=EN-US>&nbsp;</span>不需要路径<span
-lang=EN-US>)<o:p></o:p></span></span></p>
+style='font-size:9.0pt'>生成的<span lang=EN-US>excel</span>放在<span lang=EN-US>.<span
+class=GramE>./</span>output</span>下<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:9.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;</span><span
+style='font-size:9.0pt'>在<span lang=EN-US>.<span class=GramE>./</span>bin</span>下执行<span
+lang=EN-US>&nbsp;python&nbsp;sql2excel.py&nbsp;<span class=SpellE>xxx.sql</span>(</span>直接文件名<span
+lang=EN-US>&nbsp;</span>不需要路径<span lang=EN-US>)<o:p></o:p></span></span></p>
 
 <p class=MsoNormal><span lang=EN-US style='font-size:9.0pt'><o:p>&nbsp;</o:p></span></p>
 
