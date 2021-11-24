@@ -25,7 +25,7 @@ cfg=$workpath'/../config/tt.cfg'
 user_name_row=`sed -n '/Username/=' $cfg`
 ((user_name_row++))
 user_name=`sed -n ''$user_name_row'p' $cfg`
-passwd_row=`sed -n '/Pawwsord/=' $cfg`
+passwd_row=`sed -n '/Password/=' $cfg`
 ((passwd_row++))
 passwd=`sed -n ''$passwd_row'p' $cfg`
 dsn_row=`sed -n '/Dsn/=' $cfg`
