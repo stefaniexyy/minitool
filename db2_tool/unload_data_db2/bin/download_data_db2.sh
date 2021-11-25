@@ -43,7 +43,6 @@ for((i=$row_begin;i<=$row_end;i++));
         ((j++))
 done
 #db2 connect to $db_db user $db_username using $db_passwd
-db2 connect to $db_db user $db_username using $db_passwd
 trap "exec 1000>&-;exec 1000<&-;exit 0" 2
 mkfifo testinfo
 exec 1000<>testinfo
@@ -53,15 +52,16 @@ do
     echo>&1000
 done
 echo [ `date +%Y-%m-%d\ %H:%M:%S`]Process Begin.....
-for((k=0;k<j;k++))
+for((k=0;k<$j;k++))
     do
     read -u 1000
     {
+        db2 connect to $db_db user $db_username using $db_passwd
         eval ${EXEC[$k]}
         sleep 1
         echo >&1000
 
-    }
+    }&
 done
 wait
 echo [ `date +%Y-%m-%d\ %H:%M:%S`]All complete!
